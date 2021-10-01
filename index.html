@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>덕번방</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+  </head>
+  <body>
+    
+    <img src="image/KakaoTalk_20211001_102340967.jpg" width="5%"/>
+    <div id="main">
+      <div id="chat">
+        <!-- 채팅 메시지 영역 -->
+      </div>
+      <div>
+        <input onkeyup="send()" type="text" id="test" placeholder="메시지를 입력해주세요.."> 
+        <button onclick="send()">전송</button>
+      </div>
+    </div>
+  </body>
+</html>
+
